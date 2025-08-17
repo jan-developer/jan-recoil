@@ -18,6 +18,7 @@ Enhance weapon realism and gameplay immersion effortlessly.
 
 3) Start your server and enjoy the recoil system.
 
+<img width="513" height="263" alt="image" src="https://github.com/user-attachments/assets/61b0e153-252d-4b1d-b6cf-2211ba0c1f1b" />
 
  ----- UI -----
 Usage
