@@ -14,7 +14,7 @@ Enhance weapon realism and gameplay immersion effortlessly.
 
  1) Place the script folder in your resources directory.
 
-2) Add ensure jan-recoil to your server.cfg.
+2) Add ensure "jan-recoil" to your server.cfg.
 
 3) Start your server and enjoy the recoil system.
 
