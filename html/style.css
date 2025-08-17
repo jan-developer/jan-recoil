@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: transparent;
+}
+
+#recoilMenu {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    background: rgba(30, 30, 35, 0.95); 
+    padding: 30px;
+    border-radius: 20px;
+    color: #e0e0e0; 
+    width: 420px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    opacity: 0;
+}
+
+#recoilMenu.show {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+h2 {
+    font-size: 26px;
+    color: #c0c0c0; 
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 12px 0;
+    color: #b0b0b0;
+}
+
+.sliderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+input[type=range] {
+    width: 75%;
+    accent-color: #88aaff;
+    height: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type=range]:hover {
+    accent-color: #aaccee; 
+}
+
+span {
+    width: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #c0c0c0;
+}
+
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 0 8px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #667788, #8899aa); 
+    color: #e0e0e0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #556677, #778899);
+    transform: scale(1.03);
+}
+
+button:active {
+    transform: scale(0.95);
+}
