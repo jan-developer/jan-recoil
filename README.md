@@ -10,14 +10,16 @@ Lightweight and easy to use
 
 Enhance weapon realism and gameplay immersion effortlessly.
 
-Installation
+------- Installation -------
 
-Place the script folder in your resources directory.
+ 1) Place the script folder in your resources directory.
 
-Add ensure <folder_name> to your server.cfg.
+2) Add ensure <folder_name> to your server.cfg.
 
-Start your server and enjoy the recoil system.
+3) Start your server and enjoy the recoil system.
 
+
+ ----- UI -----
 Usage
 
 Open the UI to adjust recoil intensity and camera shake settings.
